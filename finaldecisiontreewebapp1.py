@@ -45,4 +45,4 @@ if uploaded_model is not None:
 
 
 if st.sidebar.button('Train the model'):
-    st.sidebar.write("[Decision Tree Regressor App](https://appprojectdecisiontree-5eewu4todsnjytxevrctxi.streamlit.app/)")
+    st.sidebar.write("[Decision Tree Regressor](https://appprojectdecisiontree-5eewu4todsnjytxevrctxi.streamlit.app/)")
