@@ -45,5 +45,25 @@ if uploaded_model is not None:
         st.graphviz_chart(tree)
 
 
-if st.sidebar.button('Train the model'):
-    st.sidebar.write("[Decision Tree Regressor App](https://appprojectdecisiontree-5eewu4todsnjytxevrctxi.streamlit.app/)")
+if st.button('Train the model'):
+    st.markdown(
+        """
+        <a href="https://appprojectdecisiontree-5eewu4todsnjytxevrctxi.streamlit.app/" 
+           style="text-decoration: none;">
+            <button style="
+                background-color: #4CAF50; 
+                color: white; 
+                border: none; 
+                padding: 15px 32px; 
+                text-align: center; 
+                text-decoration: none; 
+                display: inline-block; 
+                font-size: 16px; 
+                margin: 4px 2px; 
+                cursor: pointer;">
+                <b>Decision Tree Regressor App</b>
+            </button>
+        </a>
+        """,
+        unsafe_allow_html=True
+    )
