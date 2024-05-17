@@ -44,7 +44,7 @@ if uploaded_model is not None:
      
         st.graphviz_chart(tree)
 
-
+st.success('Train the model before Test')
 if st.button('Train the model'):
     st.markdown(
         """
@@ -61,7 +61,7 @@ if st.button('Train the model'):
                 font-size: 16px; 
                 margin: 4px 2px; 
                 cursor: pointer;">
-                <b>Decision Tree Regressor App</b>
+                <b>Decision Tree Regressor</b>
             </button>
         </a>
         """,
