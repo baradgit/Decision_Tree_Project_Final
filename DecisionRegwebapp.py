@@ -43,7 +43,9 @@ if uploaded_model is not None:
 
      
         st.graphviz_chart(tree)
-
+st.title("Link Button Example")
+link = 'https://github.com/baradgit/DecisiontreeFinal/blob/main/Mobile_Price_Prediction_train%20-%20Copy.csv'
+st.markdown(link, unsafe_allow_html=True)
 st.success('Train the model before Test')
 if st.button('Train the model'):
     st.markdown(
